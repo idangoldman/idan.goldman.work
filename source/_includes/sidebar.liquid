@@ -6,12 +6,12 @@
   </div>
 
   <!-- Author -->
-  <mark id="my-name" class="marked">
+  <mark id="author" class="marked">
     {{ include.content.author }}
   </mark>
 
   <!-- HeadLine -->
-  <mark id="my-slogen" class="marked">
+  <mark id="headline" class="marked">
     {{ include.content.headline }}
   </mark>
 
@@ -23,10 +23,10 @@
   </nav>
 
   <!-- Social Menu -->
-  <nav id="socia-menu">
+  <nav id="social-menu">
     {% for item in include.content.social_menu %}
-      <a href="{{ item.link }}" class="link" data-title="{{ item.name }}">
-        {% svg "{{ include.content.social_icons_folder_path }}{{ item.name }}.svg" %}
+      <a href="{{ item.link }}" data-title="{{ item.name }}" class="link" target="_blank">
+        {% svg "{{ site.social_icons_folder_path }}{{ item.name }}.svg" %}
       </a>
     {% endfor %}
   </nav>

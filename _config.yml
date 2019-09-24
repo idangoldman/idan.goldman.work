@@ -46,3 +46,5 @@ jekyll_tidy:
 # SVG
 svg:
   optimize: true
+
+social_icons_folder_path: /assets/images/social-icons/
