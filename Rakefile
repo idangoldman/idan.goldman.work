@@ -10,7 +10,7 @@ task "clean" do
   exec("bundle exec jekyll clean; bundle exec jekyll doctor")
 end
 
-task "serve" do
+task "dev" do
   exec("bundle exec jekyll serve --watch --trace")
 end
 
