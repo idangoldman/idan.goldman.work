@@ -14,6 +14,10 @@ task "dev" do
   exec("bundle exec jekyll serve --watch --trace")
 end
 
+task "kill" do
+  exec("kill $(ps aux | grep '[j]ekyll' | awk '{print $2}')")
+end
+
 task "clear:cache" do
   exec("
     curl -X DELETE \"https://api.cloudflare.com/client/v4/zones/#{CLOUDFLARE_ZONE_ID}/purge_cache\" \

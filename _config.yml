@@ -26,6 +26,7 @@ markdown: kramdown
 # Plugins
 plugins:
   - jekyll-feed
+  - jekyll-inline-svg
   - jekyll-last-modified-at
   - jekyll-seo-tag
   - jekyll-sitemap
@@ -41,3 +42,7 @@ sass:
 jekyll_tidy:
   ignore_env: development
   compress_html: true
+
+# SVG
+svg:
+  optimize: true
