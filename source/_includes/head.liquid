@@ -1,0 +1,14 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  {% seo %}
+  {% feed_meta %}
+
+  <!-- <link rel="stylesheet" href="{{ page.stylesheet }}" /> -->
+
+  {% if site.ENV == "production" and site.GA_ID %}
+    {% include 3rd_party/google_analytics.liquid id=site.GA_ID %}
+  {% endif %}
+</head>
