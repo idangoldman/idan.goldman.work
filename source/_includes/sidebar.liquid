@@ -1,0 +1,34 @@
+<aside id="sidebar">
+
+  <!-- Background Image -->
+  <div id="background" role="presentation"
+    data-background-image-path="{{ include.content.background_image_path }}">
+  </div>
+
+  <!-- Author -->
+  <mark id="my-name" class="marked">
+    {{ include.content.author }}
+  </mark>
+
+  <!-- HeadLine -->
+  <mark id="my-slogen" class="marked">
+    {{ include.content.headline }}
+  </mark>
+
+  <!-- Menu -->
+  <nav id="menu">
+    {% for item in include.content.menu %}
+      <a href="{{ item.link }}" class="link">{{ item.name }}</a>
+    {% endfor %}
+  </nav>
+
+  <!-- Social Menu -->
+  <nav id="socia-menu">
+    {% for item in include.content.social_menu %}
+      <a href="{{ item.link }}" class="link" data-title="{{ item.name }}">
+        {% svg "{{ include.content.social_icons_folder_path }}{{ item.name }}.svg" %}
+      </a>
+    {% endfor %}
+  </nav>
+
+</aside>
