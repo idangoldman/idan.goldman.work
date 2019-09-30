@@ -27,6 +27,7 @@
 $RECYCLE.BIN/
 ehthumbs_vista.db
 ehthumbs.db
+Gemfile.lock
 lerna-debug.log*
 logs
 node_modules/
@@ -40,4 +41,3 @@ vendor
 yarn-debug.log*
 yarn-error.log*
 yarn.lock
-Gemfile.lock

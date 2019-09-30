@@ -1,4 +1,5 @@
 source "https://rubygems.org"
+ruby "2.6.4"
 
 gem "jekyll", "~> 4.0.0"
 
@@ -12,6 +13,6 @@ group :jekyll_plugins do
   gem "jekyll-tidy", "~> 0.2.2"
 end
 
-gem "rake", "~> 12.3"
+gem "rake", "~> 13.0.0"
 gem "public_suffix", "~> 4.0.1"
 gem "dotenv", "~> 2.7"
