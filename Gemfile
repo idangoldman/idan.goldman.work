@@ -16,3 +16,4 @@ end
 gem "rake", "~> 13.0.0"
 gem "public_suffix", "~> 4.0.1"
 gem "dotenv", "~> 2.7"
+gem "rebo", :github => "idangoldman/rebo", :branch => "master"
