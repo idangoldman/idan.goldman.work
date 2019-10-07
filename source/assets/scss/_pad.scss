@@ -2,24 +2,26 @@
   @extend .py-5;
 
   #last-modified {
-
     color: palette('black', 300);
     display: block;
+    font: face('h5', 'bold');
     text-align: center;
   }
 
   #content {
-
+    & > *  { @extend .mt-4; }
     &, h4  { @extend .mt-2; }
-    & > *  { @extend .mt-3; }
     h3 + * { @extend .mt-1; }
+    * + h2 { @extend .mt-5; }
 
-    h4 {
-      color: palette('black', 300);
-    }
+    h1     { font: face('h2', 'bold'); }
+    h2, h4 { font: face('h3', 'bold'); }
+    h3     { font: face('h4', 'bold'); }
+    h4     { color: palette('black', 300); }
 
     li, p {
-      line-height: 30px;
+      font: face('h4');
+      line-height: 33px;
     }
   }
 
