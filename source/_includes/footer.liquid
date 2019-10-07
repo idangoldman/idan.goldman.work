@@ -1,0 +1,10 @@
+<footer id="footer">
+  <!-- Social Menu -->
+  <nav id="social-menu">
+    {% for item in include.content.social_menu %}
+      <a href="{{ item.link }}" data-title="{{ item.name }}" class="link" target="_blank">
+        {% svg "{{ site.social_icons_folder_path }}{{ item.name }}.svg" %}
+      </a>
+    {% endfor %}
+  </nav>
+</footer>

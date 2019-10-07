@@ -1,0 +1,53 @@
+#header {
+  @extend .py-5;
+
+  position: relative;
+
+  & > * {
+    position: relative;
+    z-index: 3;
+  }
+
+  #background {
+    background-position: 50% 35%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+
+    &, &:after {
+      height: 100%;
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 100%;
+    }
+
+    &:after {
+      background-color: palette("brand", 100);
+      content: "";
+      display: block;
+      z-index: 2;
+    }
+  }
+
+  .container > .row > .column {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .marked {
+    background-color: palette("brand");
+    color: palette("white") !important;
+    display: inline-block;
+    padding: 10px 20px;
+
+    &#headline {
+      @extend .mt-4;
+    }
+  }
+
+  #menu {
+    @extend .mt-5;
+  }
+}

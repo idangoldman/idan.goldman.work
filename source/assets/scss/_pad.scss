@@ -1,0 +1,26 @@
+#pad {
+  @extend .py-5;
+
+  #last-modified {
+
+    color: palette('black', 300);
+    display: block;
+    text-align: center;
+  }
+
+  #content {
+
+    &, h4  { @extend .mt-2; }
+    & > *  { @extend .mt-3; }
+    h3 + * { @extend .mt-1; }
+
+    h4 {
+      color: palette('black', 300);
+    }
+
+    li, p {
+      line-height: 30px;
+    }
+  }
+
+}

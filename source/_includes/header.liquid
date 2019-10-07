@@ -1,0 +1,29 @@
+<header id="header">
+
+  <!-- Background Image -->
+  <div id="background" role="presentation"
+    style="background-image: url('{{ include.content.background_image_path }}');">
+  </div>
+
+  <div class="container"><div class="row is-aligned-center"><div class="ten column">
+
+      <!-- Author -->
+      <mark id="author" class="marked">
+        {{ include.content.author }}
+      </mark>
+
+      <!-- HeadLine -->
+      <mark id="headline" class="marked">
+        {{ include.content.headline }}
+      </mark>
+
+      <!-- Menu -->
+      <nav id="menu">
+        {% for item in include.content.menu %}
+          <a href="{{ item.link }}" class="link">{{ item.name }}</a>
+        {% endfor %}
+      </nav>
+
+  </div></div></div>
+
+</header>

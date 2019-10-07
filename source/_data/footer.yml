@@ -1,17 +1,3 @@
-author: Idan Goldman
-headline: Bootsreapper and Frontend Developer
-background_image_path: /assets/images/sidebar-background.jpg
-
-menu:
-  - name: Resume
-    link: /resume/
-
-  - name: Notebook
-    link: /notebook/
-
-  - name: Say Hello
-    link: /say_hello/
-
 social_menu:
   - name: Instagram
     link: https://instagram.com/idan.goldman/

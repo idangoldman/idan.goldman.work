@@ -1,0 +1,9 @@
+// Kit, import from a git submodule
+@import "src/index";
+
+#page {
+  #main {}
+
+  @import "header";
+  @import "pad";
+}

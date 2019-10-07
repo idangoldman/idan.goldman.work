@@ -1,0 +1,39 @@
+<main id="pad" class="container">
+  <div class="row is-aligned-center "><div class="ten column">
+
+    <!-- Last Modified -->
+    <time id="last-modified" datetime="{{ page.date }}">
+      {{ page.date | date: "%d/%m/%Y" }}
+    </time>
+
+    <!-- Content -->
+    <article id="content">
+      {{ content }}
+    </article>
+
+    <!-- Comment Button -->
+    {% if page.comment_url %}
+      <a id="comment-button" href="{{ page.comment_url }}" target="_blank">Comment</a>
+    {% endif %}
+
+    {% if page.url contains "/notebook" %}
+      <!-- Share -->
+      <div id="share">
+        <p class="text">
+          Thank you for reading.
+          <small>Please share on:</small>
+        </p>
+
+        <!-- Social List -->
+        <nav id="social-list">
+          {% for item in include.content.share_list %}
+            <a href="{{ item.link }}" data-title="{{ item.name }}" class="link" target="_blank">
+              {% svg "{{ site.social_icons_folder_path }}{{ item.name }}.svg" %}
+            </a>
+          {% endfor %}
+        </nav>
+      </div>
+    {% endif %}
+
+  </div></div>
+</main>
