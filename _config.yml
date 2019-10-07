@@ -20,8 +20,10 @@ port: 1234
 # Build settings
 source: ./source
 destination: ./public
-timezone: Asia/Jerusalem
+exclude: [assets/scss]
+keep_files: [assets/css]
 markdown: kramdown
+timezone: Asia/Jerusalem
 
 # Plugins
 plugins:
@@ -33,10 +35,10 @@ plugins:
   - jekyll-tidy
 
 # SASS
-sass:
-  style: compressed
-  load_paths:
-    - ../kit
+# sass:
+#   style: compressed
+#   load_paths:
+#     - ../kit
 
 # HTML Compression
 jekyll_tidy:

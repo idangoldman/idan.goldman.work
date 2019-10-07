@@ -1,0 +1,13 @@
+{
+  "name": "idan.goldman.com",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Idan Goldman <idan@goldman.work>",
+  "license": "MIT",
+  "engines": {
+    "node": "10.16.3"
+  },
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
