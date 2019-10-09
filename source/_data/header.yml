@@ -5,7 +5,7 @@ background_image_path: /assets/images/header-background.jpg
 
 menu:
   - name: Resume
-    link: /resume/
+    link: /
 
   - name: Notebook
     link: /notebook/

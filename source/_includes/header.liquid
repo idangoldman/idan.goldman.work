@@ -20,7 +20,13 @@
       <!-- Menu -->
       <nav id="menu">
         {% for item in include.content.menu %}
-          <a href="{{ item.link }}" class="link">{{ item.name }}</a>
+          {% assign current_class = '' %}
+
+          {% if page.url contains item.link %}
+            {% assign current_class = 'current' %}
+          {% endif %}
+
+          <a href="{{ item.link }}" class="link {{ current_class }}">{{ item.name }}</a>
         {% endfor %}
       </nav>
 

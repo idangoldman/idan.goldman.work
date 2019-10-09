@@ -9,7 +9,7 @@ layout: default
 
 # Resume
 
-#### Hello to you,
+#### TLDR; link to my [LinkedIn profile](https://linkedin.com/in/idangoldman/){:target="_blank"}.
 
 My name is Idan as you can see from the title of this page. I have been part of the tech industry for over 10 years, mostly focused on Frontend technologies and languages.
 
@@ -56,32 +56,3 @@ With the help of a friend we have created an awesome UI Kit which is also still 
 - Design to code conversions, from any design tool to any template engine, platform theme, or just plain old HTML, CSS, JS code. Email templates as well.
 - Create an interactive HTML prototype of a design.
 - Build small and simple web apps with basic CMS or CRM functionalities without any complex logic or algorithms.
-
-Thanks for reading, have a nice day. :)
-
-
-## Services:
-- Ui Kit as a Service.
-- HTML Prototype.
-- Small Web Apps.
-- Themes and templates for various platforms.
-- Company website.
-- Chrome extension.
-- WordPress Plugins VIP certified.
-- Code audits, code reviews as a 3rd party to a project.
-
-===================================
-
-# StaticPage v2
-
-Quick and simple Coming Soon pages builder with the ability to download the source code of the page. The app is 100% me, from the design to the backend, for the website I have used the help of friends as described in the credit section of the website.
-
-StaticPage app was built with Flask, Flight.js, Jinja & SASS UI kit built specifically for the project, hosted on Heroku. The website was built with Jekyll and hosted on GitLab.
-
-===================================
-
-# ToDoin v3.2.2
-
-Simple to-do chrome extension I have built for my use a while ago. The most differentiating feature of this to-do extension is the Private to-dos. Why you need private to-dos you ask? For me, working in an office environment created the need to keep some to-dos private.
-
-I have built this project with Backbone.js & Sass and then converted it to React.js but the React version haven't seen the light of day. I have created all the graphic materials except for the logo, this is the creation of my friend.
