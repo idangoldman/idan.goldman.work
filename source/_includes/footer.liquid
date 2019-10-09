@@ -1,10 +1,17 @@
 <footer id="footer">
-  <!-- Social Menu -->
-  <nav id="social-menu">
-    {% for item in include.content.social_menu %}
-      <a href="{{ item.link }}" data-title="{{ item.name }}" class="link" target="_blank">
-        {% svg "{{ site.social_icons_folder_path }}{{ item.name }}.svg" %}
-      </a>
-    {% endfor %}
-  </nav>
+  <div class="container"><div class="row is-aligned-center"><div class="ten column">
+
+    <!-- Social Menu -->
+    <nav id="social-menu">
+      {% for item in include.content.social_menu %}
+        <a href="{{ item.link }}" class="link" target="_blank">{{ item.name }}</a>
+      {% endfor %}
+    </nav>
+
+    <!-- Fineprint -->
+    <p id="fineprint">
+      {{ include.content.fineprint | markdownify | replace: "<p>", "" | replace: "</p>", "" }}
+    </p>
+
+  </div></div></div>
 </footer>

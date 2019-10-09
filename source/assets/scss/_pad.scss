@@ -1,5 +1,5 @@
 #pad {
-  @extend .py-5;
+  @extend %py-5;
   cursor: default;
 
   #last-modified {
@@ -10,10 +10,10 @@
   }
 
   #content {
-    & > *  { @extend .mt-4; }
-    &, h4  { @extend .mt-2; }
-    h3 + * { @extend .mt-1; }
-    * + h2 { @extend .mt-5; }
+    & > *  { @extend %mt-4; }
+    &, h4  { @extend %mt-2; }
+    h3 + * { @extend %mt-1; }
+    * + h2 { @extend %mt-5; }
 
     h1     { font: face('h2', 'bold'); }
     h2, h4 { font: face('h3', 'bold'); }
@@ -27,7 +27,7 @@
   }
 
   #thank-you {
-    @extend .mt-5;
+    @extend %mt-5;
 
     color: palette('secondary');
     font: face('h3', 'bold');

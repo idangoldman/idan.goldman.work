@@ -2,8 +2,7 @@
 @import "src/index";
 
 #page {
-  #main {}
-
   @import "header";
   @import "pad";
+  @import "footer";
 }

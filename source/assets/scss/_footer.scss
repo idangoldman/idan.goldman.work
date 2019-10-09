@@ -1,0 +1,22 @@
+#footer {
+  @extend %py-4;
+
+  background-color: palette('background');
+  text-align: center;
+
+  #social-menu .link {
+    @extend %mr-3;
+    @extend %link-secondary;
+
+    font: face('h5', 'bold');
+  }
+
+  #fineprint {
+    @extend %mt-3;
+
+    color: palette('secondary');
+    font: face('h6', 'bold');
+
+    a { @extend %link-secondary; }
+  }
+}
