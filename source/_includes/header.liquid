@@ -22,11 +22,13 @@
         {% for item in include.content.menu %}
           {% assign current_class = '' %}
 
-          {% if page.url contains item.link %}
+          {% if page.url == item.link or (item.link != '/' and page.url contains item.link) %}
             {% assign current_class = 'current' %}
           {% endif %}
 
-          <a href="{{ item.link }}" class="link {{ current_class }}">{{ item.name }}</a>
+          <a href="{{ item.link }}" class="link {{ current_class }}">
+            {{ item.name }}
+          </a>
         {% endfor %}
       </nav>
 

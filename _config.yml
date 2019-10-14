@@ -8,8 +8,15 @@ email: reply@goldman.work
 # Collections
 collections:
   posts:
-    permalink: /notebook/:title
+    permalink: /notebook/:title/
     layout: post
+
+# Front Matter Defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
 
 # Permalinks
 url: 'https://idan.goldman.work'

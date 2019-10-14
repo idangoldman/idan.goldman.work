@@ -4,7 +4,6 @@ description:
 date: 2019-09-24 09:00:00 +0300
 
 permalink: /
-layout: default
 ---
 
 #### TLDR; link to my [LinkedIn profile](https://linkedin.com/in/idangoldman/){:target="_blank"}.
