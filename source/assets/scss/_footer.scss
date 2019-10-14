@@ -5,7 +5,7 @@
   text-align: center;
 
   #social-menu .link {
-    @extend %mr-3;
+    &:not(:last-child) { @extend %mr-3; }
     @extend %link-secondary;
 
     font: face('h5', 'bold');

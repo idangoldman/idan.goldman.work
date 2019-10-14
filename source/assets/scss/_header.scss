@@ -54,5 +54,10 @@
 
   #menu {
     @extend %mt-5;
+
+    .link {
+      &:not(:last-child) { @extend %mr-2; }
+      @include button;
+    }
   }
 }
