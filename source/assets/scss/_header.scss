@@ -1,5 +1,7 @@
 #header {
+  @extend %mb-5;
   @extend %py-5;
+
   position: relative;
 
   & > * {

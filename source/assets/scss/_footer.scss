@@ -1,4 +1,5 @@
 #footer {
+  @extend %mt-5;
   @extend %py-4;
 
   background-color: palette('background');

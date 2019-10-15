@@ -1,7 +1,6 @@
 author: Idan Goldman,
-# headline: Bootstrapper and Frontend Developer
 headline: Experienced Frontend Developer.
-background_image_path: /assets/images/header-background.jpg
+header_image_path: /assets/images/headers/default.jpg
 
 menu:
   - name: Resume

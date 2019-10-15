@@ -11,6 +11,21 @@ defaults:
       path: ""
     values:
       layout: "default"
+  - scope:
+      type: "posts"
+    values:
+      layout: "note"
+      header:
+        author: "Greater Fool's Journey,"
+        headline: "Notebook filled with bootstrapping code words."
+        header_image_path: /assets/images/headers/notebook.jpg
+  - scope:
+      path: "pages/notebook"
+    values:
+      header:
+        author: "Greater Fool's Journey,"
+        headline: "Notebook filled with bootstrapping code words."
+        header_image_path: /assets/images/headers/notebook.jpg
 
 # Collections
 collections:

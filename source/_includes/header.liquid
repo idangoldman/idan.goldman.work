@@ -2,19 +2,19 @@
 
   <!-- Background Image -->
   <div id="background" role="presentation"
-    style="background-image: url('{{ include.content.background_image_path }}');">
+    style="background-image: url('{{ page.header.header_image_path | default: include.content.header_image_path }}');">
   </div>
 
   <div class="container"><div class="row is-aligned-center"><div class="ten column">
 
       <!-- Author -->
       <mark id="author" class="marked">
-        {{ include.content.author }}
+        {{ page.header.author | default: include.content.author }}
       </mark>
 
       <!-- HeadLine -->
       <mark id="headline" class="marked">
-        {{ include.content.headline }}
+        {{ page.header.headline | default: include.content.headline }}
       </mark>
 
       <!-- Menu -->

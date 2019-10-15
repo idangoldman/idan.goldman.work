@@ -1,8 +1,10 @@
 // Kit, import from a git submodule
 @import "src/index";
+@import "includes/formatted_date";
 
 #page {
   @import "header";
   @import "note";
+  @import "notebook";
   @import "footer";
 }

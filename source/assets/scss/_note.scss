@@ -1,18 +1,12 @@
 #note {
-  @extend %py-5;
-  cursor: default;
-
-  #last-modified {
-    color: palette('secondary');
-    display: block;
-    font: face('h5', 'bold');
+  .formatted-date {
     text-align: center;
   }
 
   #content {
     // Spaces
     & > *  { @extend %mt-4; }
-    &, h4  { @extend %mt-2; }
+    h4     { @extend %mt-2; }
     h3 + * { @extend %mt-1; }
     * + h2 { @extend %mt-5; }
 
