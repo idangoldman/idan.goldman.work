@@ -1,15 +1,9 @@
 # General
-name: Idan Goldman
-title: Welcome to my portfolio website!
-description: Bootstrapper and Frontend Developer
+name: IDAN.GOLDMAN.WORK
+title: Idan Goldman
+description: Experienced Frontend Developer
 author: idan_goldman
 email: reply@goldman.work
-
-# Collections
-collections:
-  posts:
-    permalink: /notebook/:title/
-    layout: post
 
 # Front Matter Defaults
 defaults:
@@ -17,6 +11,11 @@ defaults:
       path: ""
     values:
       layout: "default"
+
+# Collections
+collections:
+  posts:
+    permalink: /notebook/:title/
 
 # Permalinks
 url: 'https://idan.goldman.work'
@@ -34,12 +33,17 @@ timezone: Asia/Jerusalem
 
 # Plugins
 plugins:
+  # - jekyll-inline-svg
   - jekyll-feed
-  - jekyll-inline-svg
   - jekyll-last-modified-at
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-tidy
+
+# HTML Compression
+jekyll_tidy:
+  ignore_env: development
+  compress_html: true
 
 # SASS
 # sass:
@@ -47,13 +51,8 @@ plugins:
 #   load_paths:
 #     - ../kit
 
-# HTML Compression
-jekyll_tidy:
-  ignore_env: development
-  compress_html: true
-
 # SVG
-svg:
-  optimize: true
-
-social_icons_folder_path: /assets/images/social-icons/
+# svg:
+#   optimize: true
+#
+# social_icons_folder_path: /assets/images/social-icons/
