@@ -4,6 +4,10 @@ date:  2019-04-29 16:58:00 +0300
 tags:  newsletter
 ---
 
+My went great, spend some family and got some work done using the new routine tools for last week's update. Let's see some stats today!
+
+<!-- more -->
+
 #### Hello, how did you spend your holiday season?
 
 My went great, spend some family and got some work done using the new routine tools for last week's update. Let's see some stats today!

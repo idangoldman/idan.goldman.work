@@ -4,6 +4,10 @@ date:  2019-04-15 17:01:00 +0300
 tags:  newsletter
 ---
 
+My week went horribly with the wrong marketing assumptions, followed by anxiety. On the bright side, templates feature for StaticPage is almost ready for release with 4 templates. Now, ready to retrospec and move forward.
+
+<!-- more -->
+
 #### Hello, how was your week?
 
 My week went horribly with the wrong marketing assumptions, followed by anxiety. On the bright side, templates feature for StaticPage is almost ready for release with 4 templates. Now, ready to retrospec and move forward.

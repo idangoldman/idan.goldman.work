@@ -4,7 +4,12 @@ date:  2019-08-05 21:01:00 +0300
 tags:  newsletter
 ---
 
+My month was split into two parts, before vacation and after.
+
+<!-- more -->
+
 #### Hello, how was your month?
+
 My month was split into two parts, before vacation and after.
 
 YES! We went on a trip to Portugal for the second time. It was awesome as always! Good food, beaches, weather, alcohol, and one-stop at Starbucks for old times sake. See photos from the trip on my [Instagram](https://www.instagram.com/idan.goldman/){:target="_blank"} account.

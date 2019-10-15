@@ -4,6 +4,10 @@ date:  2019-04-01 16:40:00 +0300
 tags:  newsletter
 ---
 
+I'm starting a journey as a Bootstrapper and will be launching a product on May 1st.
+
+<!-- more -->
+
 #### Hello friends, family, and people I met along the way!
 
 **TL;DR** I'm starting a journey as a Bootstrapper and will be launching a product on May 1st.

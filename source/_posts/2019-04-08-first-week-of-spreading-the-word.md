@@ -4,6 +4,10 @@ date:  2019-04-08 15:43:00 +0300
 tags:  newsletter
 ---
 
+My week went fine with some initial numbers to show for, now I'm ready and excited for this week's tasks!
+
+<!-- more -->
+
 #### Hello again, how was your week?
 
 **TL;DR** My week went fine with some initial numbers to show for, now I'm ready and excited for this week's tasks!

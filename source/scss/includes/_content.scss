@@ -1,6 +1,6 @@
 .content {
   // Spaces
-  & > *  { @extend %mt-4; }
+  & > *:not(:first-child)  { @extend %mt-4; }
   h4     { @extend %mt-2; }
   h3 + * { @extend %mt-1; }
   * + h2 { @extend %mt-5; }

@@ -1,5 +1,6 @@
 #note {
   .formatted-date {
+    @extend %mb-4;
     text-align: center;
   }
 

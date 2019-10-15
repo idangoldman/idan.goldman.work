@@ -4,6 +4,10 @@ date:  2019-07-01 18:06:00 +0300
 tags:  newsletter
 ---
 
+It was a good and relaxing month for me, the "independence" part starting to sink in. Making me shift focus from doing only things that will bring immediate value to things that need more time to harvest. For example: meeting people, creating new connections, maintaining early ones too instead of building a web agency.
+
+<!-- more -->
+
 #### Hello, how was your month?
 
 It was a good and relaxing month for me, the "independence" part starting to sink in. Making me shift focus from doing only things that will bring immediate value to things that need more time to harvest. For example: meeting people, creating new connections, maintaining early ones too instead of building a web agency.

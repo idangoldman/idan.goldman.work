@@ -1,0 +1,20 @@
+#notebook {
+  #notes {
+    list-style-type: none;
+    margin-left: 0;
+
+    .note {
+      @extend %mt-5;
+
+      h2 { font: face('h3', 'bold'); }
+      .formatted-date { @extend %mt-2; }
+
+      p {
+        @extend %mt-3;
+
+        font: face('h4');
+        line-height: 33px;
+      }
+    }
+  }
+}

@@ -4,6 +4,10 @@ date:  2019-04-22 16:22:00 +0300
 tags:  newsletter
 ---
 
+My week went solid. Released a StaticPage templates feature and instead of continuing to build a new landing page. I took a step back and thought about my near future goals and working routine.
+
+<!-- more -->
+
 #### Hello, how was your week?
 
 My week went solid. Released a StaticPage templates feature and instead of continuing to build a new landing page. I took a step back and thought about my near future goals and working routine.
