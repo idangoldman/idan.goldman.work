@@ -18,14 +18,14 @@ defaults:
       header:
         author: "Greater Fool's Journey,"
         headline: "Notebook filled with bootstrapping code words."
-        header_image_path: /assets/images/headers/notebook.jpg
+        header_image_path: /images/headers/notebook.jpg
   - scope:
       path: "pages/notebook.md"
     values:
       header:
         author: "Greater Fool's Journey,"
         headline: "Notebook filled with bootstrapping code words."
-        header_image_path: /assets/images/headers/notebook.jpg
+        header_image_path: /images/headers/notebook.jpg
 
 # Collections
 collections:
@@ -41,8 +41,8 @@ port: 1234
 # Build settings
 source: ./source
 destination: ./public
-exclude: [assets/scss]
-keep_files: [assets/css]
+exclude: [scss]
+keep_files: [css]
 markdown: kramdown
 timezone: Asia/Jerusalem
 
@@ -70,4 +70,4 @@ jekyll_tidy:
 # svg:
 #   optimize: true
 #
-# social_icons_folder_path: /assets/images/social-icons/
+# social_icons_folder_path: /images/social-icons/
