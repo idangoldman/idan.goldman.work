@@ -20,7 +20,7 @@ defaults:
         headline: "Notebook filled with bootstrapping code words."
         header_image_path: /assets/images/headers/notebook.jpg
   - scope:
-      path: "pages/notebook"
+      path: "pages/notebook.md"
     values:
       header:
         author: "Greater Fool's Journey,"
