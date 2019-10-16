@@ -1,20 +1,29 @@
 #footer {
-  @extend %mt-5;
+  @extend %mt-7;
   @extend %py-4;
+  .column > *:not(:first-child) { @extend %mt-3; }
 
   background-color: palette('background');
   text-align: center;
 
+  #going-up {
+    @extend %link-secondary;
+    font: face('h7', 'bold');
+
+    &:hover {
+      color: palette('action');
+      border-color: palette('action');
+    }
+  }
+
   #social-menu .link {
     &:not(:last-child) { @extend %mr-3; }
-    @extend %link-secondary;
 
+    @extend %link-secondary;
     font: face('h5', 'bold');
   }
 
   #fineprint {
-    @extend %mt-3;
-
     color: palette('secondary');
     font: face('h6', 'bold');
 
