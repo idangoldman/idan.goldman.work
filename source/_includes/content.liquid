@@ -3,5 +3,5 @@
     {{ include.title }}
   </h1>
 
-  {{ include.content }}
+  {{ include.content | remove: include.excerpt }}
 </article>

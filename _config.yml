@@ -26,6 +26,11 @@ defaults:
         author: "Greater Fool's Journey,"
         headline: "Notebook filled with bootstrapping code words."
         header_image_path: /images/headers/notebook.jpg
+  - scope:
+      path: "pages/say_hello.md"
+    values:
+      header:
+        header_image_path: /images/headers/say_hello.jpg
 
 # Collections
 collections:
