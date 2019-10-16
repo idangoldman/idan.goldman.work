@@ -7,7 +7,7 @@ permalink: /
 layout: note
 ---
 
-#### TLDR; link to my [LinkedIn profile](https://linkedin.com/in/idangoldman/){:target="_blank"}.
+#### TLDR; link to my [GitHub page](https://github.com/idangoldman){:target="_blank"} and [LinkedIn profile](https://linkedin.com/in/idangoldman/){:target="_blank"}.
 
 My name is Idan as you can see from the title of this page. I have been part of the tech industry for over 10 years, mostly focused on Frontend technologies and languages.
 
