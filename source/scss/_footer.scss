@@ -1,32 +1,38 @@
 #footer {
   @extend %mt-7;
   @extend %py-4;
-  .column > *:not(:first-child) { @extend %mt-3; }
 
   background-color: palette('background');
   text-align: center;
 
+  #view-source {
+    color: palette('secondary');
+    font: face('h6', 'bold');
+
+    a { @extend %link-secondary; }
+  }
+
+  #social-menu {
+    @extend %mb-1;
+
+    .link {
+      @extend %mx-2;
+      @extend %mb-2;
+      @extend %link-secondary;
+
+      font: face('h5', 'bold');
+    }
+  }
+
   #going-up {
+    @extend %mt-3;
     @extend %link-secondary;
+
     font: face('h7', 'bold');
 
     &:hover {
       color: palette('action');
       border-color: palette('action');
     }
-  }
-
-  #social-menu .link {
-    &:not(:last-child) { @extend %mr-3; }
-
-    @extend %link-secondary;
-    font: face('h5', 'bold');
-  }
-
-  #fineprint {
-    color: palette('secondary');
-    font: face('h6', 'bold');
-
-    a { @extend %link-secondary; }
   }
 }

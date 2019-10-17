@@ -20,6 +20,10 @@
       @extend %m-auto;
 
       min-width: 140px;
+
+      @include media-query("small", "down") {
+        width: 100%;
+      }
     }
   }
 }
