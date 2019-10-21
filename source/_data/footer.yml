@@ -1,15 +1,18 @@
 social_menu:
-  - name: Instagram
-    link: https://instagram.com/idan.goldman/
+  # - name: Instagram
+  #   link: https://instagram.com/idan.goldman/
 
-  - name: LinkedIn
-    link: https://linkedin.com/in/idangoldman/
+  # - name: Telegram
+  #   link: https://t.me/IdanTheGreen
 
   - name: GitHub
     link: https://github.com/idangoldman
 
+  - name: LinkedIn
+    link: https://linkedin.com/in/idangoldman/
+
   - name: Twitter
     link: https://twitter.com/idan_goldman
 
-  - name: Telegram
-    link: https://t.me/IdanTheGreen
+  - name: Reddit
+    link: https://reddit.com/user/Idan_Goldman
