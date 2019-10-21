@@ -2,7 +2,7 @@
   @extend %mt-7;
   @extend %py-4;
 
-  background-color: palette('background');
+  background-color: palette('black', 100);
   text-align: center;
 
   #view-source {

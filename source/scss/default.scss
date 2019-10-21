@@ -4,6 +4,12 @@
 @import "includes/content";
 
 #page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+  .container { flex: 1; }
+
   @import "header";
   @import "note";
   @import "notebook";
