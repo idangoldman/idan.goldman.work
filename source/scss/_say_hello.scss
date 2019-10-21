@@ -6,9 +6,7 @@
       @extend %mt-3;
       display: block !important;
 
-      &:not(button) {
-        width: 100%;
-      }
+      &:not(button) { width: 100%; }
     }
 
     input           { @include input;    }

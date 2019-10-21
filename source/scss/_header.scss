@@ -38,7 +38,7 @@
     }
 
     &:after {
-      background-color: palette("brand", 100);
+      background-color: palette("brand", 100, true);
       content: "";
       display: block;
       z-index: 2;
