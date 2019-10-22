@@ -11,15 +11,17 @@ layout: default
 
     <!-- Contact -->
     <form id="contact-form"
-      name="contact-form" action="/somewhere.php.il" method="post">
+      name="contact-form" action="{{ site.FORMSPREE_URL }}" method="post">
+
+      <input type="hidden" name="_next" value="{{ site.url }}{{ page.url }}?success" />
 
       <input type="text" name="full-name" placeholder="Full name" required
         data-lpignore="true" autocomplete="none" />
 
-      <input type="email" name="email" placeholder="Email" required
+      <input type="email" name="_replyto" placeholder="Email" required
         data-lpignore="true" autocomplete="none" />
 
-      <input type="text" name="subject" placeholder="Subject" required
+      <input type="text" name="_subject" placeholder="Subject" required
         data-lpignore="true" autocomplete="none" />
 
       <textarea name="message" placeholder="Message..." required></textarea>
