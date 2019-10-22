@@ -8,7 +8,7 @@
 
   <link rel="stylesheet" href="{{ '/css/default.css' }}" />
 
-  {% if site.ENV == "production" and site.GA_ID %}
-    {% include 3rd_party/google_analytics.liquid id=site.GA_ID %}
+  {% if site.ENV == "production" and site.3rd_party.ga_id %}
+    {% include 3rd_party/google_analytics.liquid id=site.3rd_party.ga_id %}
   {% endif %}
 </head>

@@ -76,3 +76,8 @@ jekyll_tidy:
 #   optimize: true
 #
 # social_icons_folder_path: /images/social-icons/
+
+# 3rd party services
+3rd_party:
+  formspree_url: https://formspree.io/xbjrlala
+  ga_id: UA-150655117-1
