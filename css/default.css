@@ -300,7 +300,7 @@ html { box-sizing: border-box; font-size: 16px; }
 
 ul, ol, dl { margin-left: 25px; }
 
-ul li:not(:last-child), ol li:not(:last-child), dl li:not(:last-child) { margin-bottom: 5px; }
+ul li:not(:last-child), ol li:not(:last-child), dl li:not(:last-child) { margin-bottom: 10px; }
 
 body { text-rendering: optimizeLegibility; text-rendering: geometricPrecision; font-smooth: always; font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; background-color: #eeefef; }
 
