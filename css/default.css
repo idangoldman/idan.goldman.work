@@ -302,6 +302,8 @@ ul, ol, dl { margin-left: 25px; }
 
 ul li:not(:last-child), ol li:not(:last-child), dl li:not(:last-child) { margin-bottom: 10px; }
 
+ul ul, ul ol, ul dl, ol ul, ol ol, ol dl, dl ul, dl ol, dl dl { margin-top: 10px; }
+
 body { text-rendering: optimizeLegibility; text-rendering: geometricPrecision; font-smooth: always; font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; background-color: #eeefef; }
 
 body, button, input, select, textarea { color: #071417; font: 400 1rem "Roboto Mono", monospace; }
@@ -327,6 +329,8 @@ img { font-size: 0; line-height: 0; }
 .content img { width: 100%; }
 
 .content img + em { display: block; font: 400 1rem "Roboto Mono", monospace; text-align: center; }
+
+.content code { background-color: rgba(7, 20, 23, 0.07); color: #071417; padding: 2px 6px; }
 
 #page { display: flex; flex-direction: column; min-height: 100vh; }
 
@@ -438,7 +442,7 @@ img { font-size: 0; line-height: 0; }
 
 @media only screen and (max-width: 567px) { #page #say-hello #contact-form button { width: 100%; } }
 
-#page #footer { background-color: rgba(52, 119, 255, 0.14); text-align: center; }
+#page #footer { background-color: #dcdedf; text-align: center; }
 
 #page #footer #view-source { color: #979c9e; font: 700 0.875rem "Roboto Mono", monospace; }
 
