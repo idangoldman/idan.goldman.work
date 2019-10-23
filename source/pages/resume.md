@@ -12,18 +12,18 @@ layout: note
 ## Table of Content
 - [Introduction](#introduction)
 - [Skill Sets](#skill-sets)
-	- [Frontend](#frontend)
-	- [Frameworks and Backend](#frameworks-and-backend)
-	- [CMSs' and SSGs'](#cmss-and-ssgs)
+  - [Frontend](#frontend)
+  - [Frameworks and Backend](#frameworks-and-backend)
+  - [CMSs' and SSGs'](#cmss-and-ssgs)
 - [Products and Open Source](#products-and-open-source)
-	- [StaticPage](#staticpage-website)
-	- [ToDoin](#todoin-web-store)
-	- [Kit](#kit-github)
-	- [Feature](#feature-github)
-	- [Rebo](#rebo-github)
+  - [StaticPage](#staticpage-website)
+  - [ToDoin](#todoin-web-store)
+  - [Kit](#kit-github)
+  - [Feature](#feature-github)
+  - [Rebo](#rebo-github)
 - [Client Work](#client-work)
-	- [Achievements](#achievements)
-	- [Services](#services)
+  - [Achievements](#achievements)
+  - [Services](#services)
 
 ## Introduction
 Hello, my name is Idan and I have been part of the tech industry for over 10 years, mostly focused on Frontend technologies and languages. Besides hands-on coding, I have experience managing small to medium R&D teams with Backend, Frontend, and QA team members. Also, managing remote freelance developers on various client projects. My latest cutting edge and bleeding tech experiences are actually teaching and passing on knowledge to the younger generation of developers.
@@ -39,9 +39,9 @@ Hello, my name is Idan and I have been part of the tech industry for over 10 yea
 ### CMSs' and SSGs'
 Swear to god I'm not cursing! CMSs are your typical content management systems like `WordPress`, `Ghost`, `Drupal` and SSG are [Static Site Generators](https://www.staticgen.com/about){:target="blank"} architectural concept that making a comeback!
 
-On the CMS side, I'm most experienced with `WordPress` and a bit with `Shopify` and `Ghost`. I have built various websites using `WordPress`, starting from the design and development stage all the way to production light at the end of the tunnel. 
+On the CMS side, I'm most experienced with `WordPress` and a bit with `Shopify` and `Ghost`. I have built various websites using `WordPress`, starting from the design and development stage all the way to production light at the end of the tunnel.
 
-On the SSG side, I'm most experienced with `Jekyll` and know a bit about `MiddleMan` and `Gatsby`. This very website is built with `Jekyll`, [check the code](https://github.com/idangoldman/idan.goldman.work){:target="_blank}. 
+On the SSG side, I'm most experienced with `Jekyll` and know a bit about `Middleman` and `Gatsby`. This very website is built with `Jekyll`, [check the code](https://github.com/idangoldman/idan.goldman.work){:target="_blank}.
 
 Also, I have created multiple themes and plugins for the above platforms, even got a chance to build a `WordPress VIP plugin`.
 
@@ -62,7 +62,7 @@ I have built this product with `Backbone` & `SASS` and then converted it to `Rea
 ### Kit ([GitHub](https://github.com/idangoldman/kit){:target="_blank"}):
 With the help of a friend we are creating an awesome `Ui Kit`! The Kit is based on `SASS` (actually `SCSS`, but potato tomato, right?), and besides doing the same stuff that other `Ui Kits` it taking advantage of `SASS` features `use`, `importer` and `functions`. Also used by this very own website.
 
-The use of these features gives the Kit abilities like importing `Google Fonts` for offline use, creation of `SVG sprites`, or converting images to `base64`. All that can be achieved with just a "`CSS framework`" and the help of a `SASS` compiler. 
+The use of these features gives the Kit abilities like importing `Google Fonts` for offline use, creation of `SVG sprites`, or converting images to `base64`. All that can be achieved with just a "`CSS framework`" and the help of a `SASS` compiler.
 
 The part I'm really proud of is writing `tests` and `documentation` for this `Ui Kit`. Yes, you can document and test CSS with the help of `SASS True` and `SassDoc`.
 
@@ -72,7 +72,7 @@ The big picture vision is a tool belt for the agency web developer / portfolio w
 ### Rebo ([GitHub](https://github.com/idangoldman/rebo){:target="_blank"}):
 Never liked `NPM` and wasn't a big fan of writing `yarn` as the main command in the terminal. Parallelly, I have begun using `jekyll` and this one is a pain in the butt as far as written commands in the terminal go. So, first I have written a `Rakefile` for each of my `git` repos wrapping the `yarn` and `jekyll` commands with a `rake` one. What a relief that one was.    Several `Rakefile` files in I fell in love with the architecture of Rake. The simplest task runner I have ever used!
 
-"From here to there" as we say in Hebrew I found myself with a bunch of `rake` tasks wrapped inside a `gem` named `rebo`. Why Rebo? It's easy to type 4 letter word that still available on `RubyGems`. 
+"From here to there" as we say in Hebrew I found myself with a bunch of `rake` tasks wrapped inside a `gem` named `rebo`. Why Rebo? It's easy to type 4 letter word that still available on `RubyGems`.
 
 ## Client Work
 
