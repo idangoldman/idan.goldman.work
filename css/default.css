@@ -438,7 +438,7 @@ img { font-size: 0; line-height: 0; }
 
 @media only screen and (max-width: 567px) { #page #say-hello #contact-form button { width: 100%; } }
 
-#page #footer { background-color: #dcdedf; text-align: center; }
+#page #footer { background-color: rgba(52, 119, 255, 0.14); text-align: center; }
 
 #page #footer #view-source { color: #979c9e; font: 700 0.875rem "Roboto Mono", monospace; }
 
