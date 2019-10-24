@@ -5,9 +5,9 @@
     &:first-child { margin-top: 0; }
   }
   * + h2 { @extend %mt-5; }
-  h3 + * { @extend %mt-1; }
-  h4     { @extend %mt-2; }
+  h3 + * { @extend %mt-2; }
   h3     { @extend %mt-4; }
+  h4     { @extend %mt-2; }
 
   // Titles
   h1     { font: face('h2', 'bold'); }
