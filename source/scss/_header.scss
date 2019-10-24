@@ -38,11 +38,17 @@
     }
 
     &:after {
-      background-color: palette("brand", 100, true);
+      background-color: palette("brand", 200, true);
       content: "";
       display: block;
       z-index: 2;
     }
+  }
+
+  #avatar {
+    border-radius: 50%;
+    max-width: 540px;
+    width: 100%;
   }
 
   #author {
@@ -64,19 +70,27 @@
     }
   }
 
-  @include media-query("small", "down") {
-    #author, #headline {
+  @include media-query('medium', 'down') {
+    & {
       text-align: center;
+    }
+
+    #avatar {
+      margin-bottom: 40px;
+      max-width: 60%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  @include media-query("small", "down") {
+    #author, #headline, #menu .link {
       width: 100%;
     }
 
-    #menu .link {
-      &:not(:last-child) {
-        margin-right: 0;
-        margin-bottom: 20px;
-      }
-
-      width: 100%;
+    #menu .link:not(:last-child) {
+      margin-right: 0;
+      margin-bottom: 20px;
     }
   }
 }

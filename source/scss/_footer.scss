@@ -20,6 +20,7 @@
       @extend %mb-2;
       @extend %link-secondary;
 
+      display: inline-block;
       font: face('h5', 'bold');
     }
   }
@@ -28,6 +29,7 @@
     @extend %mt-3;
     @extend %link-secondary;
 
+    display: inline-block;
     font: face('h7', 'bold');
 
     &:hover {
