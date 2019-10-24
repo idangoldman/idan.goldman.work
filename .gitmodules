@@ -1,4 +1,4 @@
 [submodule "kit"]
   path = kit
   url = git@github.com:idangoldman/kit.git
-  branch = feature-54
+  branch = master
