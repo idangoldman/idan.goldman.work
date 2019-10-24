@@ -254,7 +254,7 @@ body { font-family: "-apple-system", BlinkMacSystemFont, "Segoe UI", Roboto, Hel
 
 .content > *, #page #notebook #notes .note p, #page #say-hello #contact-form > *, #page #footer #going-up { margin-top: 30px; }
 
-#page #header #headline { margin-top: 40px; }
+.content h3, #page #header #headline { margin-top: 40px; }
 
 #page #note .formatted-date { margin-bottom: 40px; }
 
@@ -320,11 +320,13 @@ img { display: inherit; font-size: 0; line-height: 0; }
 
 .content h2, .content h4 { font: 700 1.5rem "Roboto Mono", monospace; }
 
-.content h3 { font: 700 1.25rem "Roboto Mono", monospace; }
-
 .content h4 { color: #979c9e; }
 
-.content li, .content p { font: 400 1.25rem "Roboto Mono", monospace; line-height: 33px; }
+.content h3 { font: 700 1.25rem "Roboto Mono", monospace; }
+
+.content li, .content p, .content h4 { line-height: 33px; }
+
+.content li, .content p { font: 400 1.25rem "Roboto Mono", monospace; font-size: 1.125rem; line-height: 33px; }
 
 .content img { width: 100%; }
 
