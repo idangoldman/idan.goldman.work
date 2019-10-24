@@ -5,5 +5,3 @@ description:
 permalink: /notebook/
 layout: notebook
 ---
-
-Hello :)
