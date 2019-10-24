@@ -1,7 +1,7 @@
 ---
 title: Resume
 description:
-date: 2019-10-23 09:00:00 +0300
+date: 2019-10-25 09:00:00 +0300
 
 permalink: /
 layout: note
@@ -34,7 +34,7 @@ Hello, my name is Idan and I have been part of the tech industry for over 10 yea
 `HTML`, `CSS`, `JS`, runs in my veins and I'm up-to-date with the current versions of these languages. Over the years I have worked with `Angular`, `React`, `Bootstrap`, `Backbone`, `jQuery`, and any template engine you can think of probably I have used it. My favorite is `Nunjucks` which is a port of `Jinja`. Nowadays, I'm building my own `JavaScript framework`, `SASS Ui Kit` (yeah, I'm one of those people), and other development and deployment tools, you can check them out down below in the [Products and Open Source](#products-and-open-source) section.
 
 ### Frameworks and Backend
-`Ruby on Rails`, `Flask`, `Express`, `Laravel` are the backend frameworks I have used over the years and I have a basic understanding of `PHP`, `Ruby`, `Python`, `SQL` languages. My knowledge of `Node.js` is better, after all, I'm a Frontend developer. Sometimes, I will act as a Full-stacker... that doesn't read well, I prefer to be called a Web Developer. I'm also great at connecting APIs with different data structures, Backend to Frontend, Frontend to 3rd-party services, earth to space, moon to mars, vice versa...
+`Ruby on Rails`, `Flask`, `Express`, `Laravel` are the backend frameworks I have used over the years and I have a basic understanding of `PHP`, `Ruby`, `Python`, `SQL` languages. My knowledge of `Node.js` is better, after all, I'm a Frontend developer. Sometimes, I will act as a `Full-stacker`... that doesn't read well, I prefer to be called a `Web Developer`. I'm also great at connecting APIs with different data structures, Backend to Frontend, Frontend to 3rd-party services, earth to space, moon to mars, vice versa...
 
 ### CMSs' and SSGs'
 Swear to god I'm not cursing! CMSs are your typical content management systems like `WordPress`, `Ghost`, `Drupal` and SSG are [Static Site Generators](https://www.staticgen.com/about){:target="blank"} architectural concept that making a comeback!

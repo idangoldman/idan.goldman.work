@@ -5,39 +5,6 @@ description: Experienced Frontend Developer
 author: idan_goldman
 email: reply@goldman.work
 
-# Front Matter Defaults
-defaults:
-  - scope:
-      path: ""
-    values:
-      layout: "default"
-  - scope:
-      type: "posts"
-    values:
-      layout: "note"
-      header:
-        author: "Greater Fool's Journey,"
-        headline: "Notebook filled with bootstrapping code words."
-        header_image_path: /images/headers/notebook.jpg
-  - scope:
-      path: "pages/notebook.md"
-    values:
-      header:
-        author: "Greater Fool's Journey,"
-        headline: "Notebook filled with bootstrapping code words."
-        header_image_path: /images/headers/notebook.jpg
-        avatar_image_path: /images/avatar/picture.png
-  - scope:
-      path: "pages/say_hello.md"
-    values:
-      header:
-        header_image_path: /images/headers/say_hello.jpg
-
-# Collections
-collections:
-  posts:
-    permalink: /notebook/:title/
-
 # Permalinks
 url: 'https://idan.goldman.work'
 baseurl: ''
@@ -82,3 +49,37 @@ jekyll_tidy:
 3rd_party:
   formspree_url: https://formspree.io/xbjrlala
   ga_id: UA-150655117-1
+
+# Collections
+collections:
+  posts:
+    permalink: /notebook/:title/
+
+# Front Matter Defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+  - scope:
+      type: "posts"
+    values:
+      layout: "note"
+      header:
+        author: "Greater Fool's Journey,"
+        headline: "Notebook filled with bootstrapping code words."
+        header_image_path: /images/headers/notebook.jpg
+        avatar_image_path: /images/avatar/picture.png
+  - scope:
+      path: "pages/notebook.md"
+    values:
+      header:
+        author: "Greater Fool's Journey,"
+        headline: "Notebook filled with bootstrapping code words."
+        header_image_path: /images/headers/notebook.jpg
+        avatar_image_path: /images/avatar/picture.png
+  - scope:
+      path: "pages/say_hello.md"
+    values:
+      header:
+        header_image_path: /images/headers/say_hello.jpg
