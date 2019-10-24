@@ -52,12 +52,12 @@
   }
 
   #author {
-    font: face('h2', 'bold');
+    font: face('h3');
   }
 
   #headline {
     @extend %mt-4;
-    font: face('h3', 'bold');
+    font: face('h4');
   }
 
   #menu {
