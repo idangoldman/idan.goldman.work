@@ -25,7 +25,7 @@ body { font-family: "-apple-system", BlinkMacSystemFont, "Segoe UI", Roboto, Hel
 
 .text-right { text-align: right  !important; }
 
-#page #footer #view-source a, #page #footer #social-menu .link, #page #footer #going-up, a { border-bottom: 2px solid #3477ff; color: #3477ff; display: inline-block; text-decoration: none; }
+#page #footer #view-source a, #page #footer #social-menu .link, #page #footer #going-up, a { border-bottom: 2px solid #3477ff; color: #3477ff; text-decoration: none; }
 
 #page #footer #view-source a, #page #footer #social-menu .link, #page #footer #going-up, a, #page #footer #view-source a *, #page #footer #social-menu .link *, #page #footer #going-up *, a * { cursor: pointer !important; }
 
@@ -310,7 +310,7 @@ body, button, input, select, textarea { color: #071417; font: 400 1rem "Roboto M
 
 button, input, select, textarea { cursor: pointer; }
 
-img { font-size: 0; line-height: 0; }
+img { display: inherit; font-size: 0; line-height: 0; }
 
 .formatted-date { color: #979c9e; display: block; font: 700 1rem "Roboto Mono", monospace; }
 
@@ -348,7 +348,9 @@ img { font-size: 0; line-height: 0; }
 
 #page #header #background, #page #header #background:after { height: 100%; left: 0; position: absolute; top: 0; width: 100%; }
 
-#page #header #background:after { background-color: rgba(45, 164, 44, 0.14); content: ""; display: block; z-index: 2; }
+#page #header #background:after { background-color: rgba(45, 164, 44, 0.28); content: ""; display: block; z-index: 2; }
+
+#page #header #avatar { border-radius: 50%; max-width: 540px; width: 100%; }
 
 #page #header #author { font: 700 2rem "Roboto Mono", monospace; }
 
@@ -366,8 +368,10 @@ img { font-size: 0; line-height: 0; }
 
 #page #header #menu .link[disabled], #page #header #menu .link[aria-disabled="true"] { background-color: #aec9ff; border-color: #aec9ff; box-shadow: none; color: white; cursor: not-allowed; }
 
-@media only screen and (max-width: 567px) { #page #header #author, #page #header #headline { text-align: center; width: 100%; }
-  #page #header #menu .link { width: 100%; }
+@media only screen and (max-width: 767px) { #page #header { text-align: center; }
+  #page #header #avatar { margin-bottom: 40px; max-width: 60%; margin-left: auto; margin-right: auto; } }
+
+@media only screen and (max-width: 567px) { #page #header #author, #page #header #headline, #page #header #menu .link { width: 100%; }
   #page #header #menu .link:not(:last-child) { margin-right: 0; margin-bottom: 20px; } }
 
 #page #note .formatted-date { text-align: center; }
@@ -446,8 +450,8 @@ img { font-size: 0; line-height: 0; }
 
 #page #footer #view-source { color: #979c9e; font: 700 0.875rem "Roboto Mono", monospace; }
 
-#page #footer #social-menu .link { font: 700 1rem "Roboto Mono", monospace; }
+#page #footer #social-menu .link { display: inline-block; font: 700 1rem "Roboto Mono", monospace; }
 
-#page #footer #going-up { font: 700 0.75rem "Roboto Mono", monospace; }
+#page #footer #going-up { display: inline-block; font: 700 0.75rem "Roboto Mono", monospace; }
 
 #page #footer #going-up:hover { color: #3477ff; border-color: #3477ff; }
