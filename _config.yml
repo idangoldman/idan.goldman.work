@@ -6,8 +6,8 @@ author: idan_goldman
 email: reply@goldman.work
 
 # Permalinks
-url: 'https://idan.goldman.work'
-baseurl: ''
+url: "https://idan.goldman.work"
+baseurl: ""
 host: idan.goldman.local
 port: 1234
 
@@ -47,8 +47,8 @@ jekyll_tidy:
 
 # 3rd party services
 3rd_party:
-  formspree_url: https://formspree.io/xbjrlala
-  ga_id: UA-150655117-1
+  formspree_url: "https://formspree.io/xbjrlala"
+  ga_id: "UA-150655117-1"
 
 # Collections
 collections:
