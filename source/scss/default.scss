@@ -10,9 +10,9 @@
 
   .container { flex: 1; }
 
-  @import "header";
+  @import "includes/header";
   @import "note";
   @import "notebook";
   @import "say_hello";
-  @import "footer";
+  @import "includes/footer";
 }

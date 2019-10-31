@@ -29,6 +29,8 @@
   // Images
   img { width: 100%; }
   img + em {
+    @extend %mt-1;
+
     display: block;
     font: face('h5');
     text-align: center;
