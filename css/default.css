@@ -236,6 +236,8 @@ body { font-family: "-apple-system", BlinkMacSystemFont, "Segoe UI", Roboto, Hel
 
 .without-gutters > [class*="column"] { padding-left: 0; padding-right: 0; }
 
+.content img + em { margin-top: 10px; }
+
 #page #footer #social-menu { margin-bottom: 10px; }
 
 #page #say-hello #contact-form input, #page #say-hello #contact-form textarea { padding-left: 10px; padding-right: 10px; }
