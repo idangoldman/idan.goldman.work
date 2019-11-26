@@ -13,6 +13,6 @@ group :jekyll_plugins do
   gem "jekyll-tidy", "~> 0.2.2"
 end
 
-gem "rake", "~> 13.0.0"
+gem "rake", "~> 13.0.1"
 gem "public_suffix", "~> 4.0.1"
-gem "rebo", :github => "idangoldman/rebo", :branch => "master"
+gem "rebo", "~> 0.1.3"
