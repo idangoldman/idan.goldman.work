@@ -1,7 +1,7 @@
 ---
 title: Resume
 description:
-date: 2019-10-25 09:00:00 +0300
+date: 2019-11-27 13:00:00 +0300
 
 permalink: /
 layout: note
@@ -23,7 +23,6 @@ layout: note
   - [Rebo](#rebo-github)
 - [Client Work](#client-work)
   - [Achievements](#achievements)
-  - [Services](#services)
 
 ## Introduction
 Hello, my name is Idan and I have been part of the tech industry for over 10 years, mostly focused on Frontend technologies and languages. Besides hands-on coding, I have experience managing small to medium R&D teams with Backend, Frontend, and QA team members. Also, managing remote freelance developers on various client projects. My latest cutting edge and bleeding tech experiences are actually teaching and passing on knowledge to the younger generation of developers.
@@ -70,11 +69,15 @@ The part I'm really proud of is writing `tests` and `documentation` for this `Ui
 The big picture vision is a tool belt for the agency web developer / portfolio website freelance / side project backend developer. Still in the making, inspired by `jQuery` and `Rails`. Take a look at the git repo for more information.
 
 ### Rebo ([GitHub](https://github.com/idangoldman/rebo){:target="_blank"}):
-Never liked `NPM` and wasn't a big fan of writing `yarn` as the main command in the terminal. Parallelly, I have begun using `jekyll` and this one is a pain in the butt as far as written commands in the terminal go. So, first I have written a `Rakefile` for each of my `git` repos wrapping the `yarn` and `jekyll` commands with a `rake` one. What a relief that one was.    Several `Rakefile` files in I fell in love with the architecture of Rake. The simplest task runner I have ever used!
+Never liked `NPM` and wasn't a big fan of writing `yarn` as the main command in the terminal. Parallelly, I have begun using `jekyll` and this one is a pain in the butt as far as written commands in the terminal go. So, first I have written a `Rakefile` for each of my `git` repos wrapping the `yarn` and `jekyll` commands with a `rake` one. What a relief that one was. Several `Rakefile` files in I fell in love with the architecture of Rake. The simplest task runner I have ever used!
 
-"From here to there" as we say in Hebrew I found myself with a bunch of `rake` tasks wrapped inside a `gem` named `rebo`. Why Rebo? It's easy to type 4 letter word that still available on `RubyGems`.
+"From here to there" as we say in Hebrew I found myself with a bunch of `rake` tasks wrapped inside a `gem` named `rebo`. Why Rebo? It's easy to type 4 letter word that was available on `RubyGems`.
 
 ## Client Work
+
+In my career, I have worked in small and large companies doing a bunch of roles. From a junior developer, through webmaster, freelancer, frontend developer, web developer, senior frontend developer, and up to team leader.
+
+While doing those roles doesn't if I were a freelancer or a full-timer I have treated everyone outside the team I was part of as a client. Meaning, I was trying to understand my client's needs and serve them with the best version of a solution to their needs.
 
 ### Achievements
 
@@ -83,12 +86,3 @@ Never liked `NPM` and wasn't a big fan of writing `yarn` as the main command in 
 - Various WordPress websites, 2 of them with Multisite support and coherent design done by Parent->Children themes adjustments.
 - 100+ successful design to code conversions, even before the time of responsive design with the need to support IE6.
 - Helped build frontend web apps of any shape on any size team.
-
-### Services
-
-- Creating UI Kits from design for development teams.
-- Custom made WordPress Themes or Plugins without the use of page builders.
-- Custom made web browser extensions.
-- Design to code conversions, from any design tool to any template engine, platform theme, or just plain old HTML, CSS, JS code. Email templates as well.
-- Create an interactive HTML prototype of a design.
-- Build small and simple web apps with basic CMS or CRM functionalities without any complex logic or algorithms.
