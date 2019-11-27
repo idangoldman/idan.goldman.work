@@ -244,23 +244,23 @@ body { font-family: "-apple-system", BlinkMacSystemFont, "Segoe UI", Roboto, Hel
 
 .content h3 + *, .content h4, #page #notebook #notes .note .formatted-date { margin-top: 20px; }
 
-#page #header #menu .link:not(:last-child) { margin-right: 20px; }
-
 #page #footer #social-menu .link { margin-bottom: 20px; }
 
 #page #footer #social-menu .link { margin-left: 20px; margin-right: 20px; }
 
 #page #header #menu .link, #page #say-hello #contact-form button { padding-left: 20px; padding-right: 20px; }
 
-.content > *, #page #notebook #notes .note p, #page #say-hello #contact-form > *, #page #footer #going-up { margin-top: 30px; }
+.content > *, #page #header #menu .link, #page #notebook #notes .note p, #page #say-hello #contact-form > *, #page #footer #going-up { margin-top: 30px; }
 
-.content h3, #page #header #headline { margin-top: 40px; }
+#page #header #menu .link:not(:last-child) { margin-right: 30px; }
+
+.content h3, #page #header #headline, #page #header #menu { margin-top: 40px; }
 
 #page #note .formatted-date { margin-bottom: 40px; }
 
 #page #footer { padding-top: 40px; padding-bottom: 40px; }
 
-.content * + h2, #page #header #menu, #page #note #thank-you, #page #notebook #notes .note, #page #say-hello #contact-form { margin-top: 60px; }
+.content * + h2, #page #note #thank-you, #page #notebook #notes .note, #page #say-hello #contact-form { margin-top: 60px; }
 
 #page #header { margin-bottom: 60px; }
 
@@ -358,7 +358,7 @@ img { display: inherit; font-size: 0; line-height: 0; }
 
 #page #header #headline { font: 400 1.25rem "Roboto Mono", monospace; }
 
-#page #header #menu { width: 100%; }
+#page #header #menu { display: flex; flex-wrap: wrap; width: 100%; }
 
 #page #header #menu .link { background-color: #3477ff; border: 2px solid #3477ff; color: #fff; font: 700 0.875rem "Roboto Mono", monospace; height: 44px; line-height: 42px; user-select: none; border-radius: 2px; cursor: pointer; display: inline-block; text-align: center; text-decoration: none; }
 
@@ -371,7 +371,9 @@ img { display: inherit; font-size: 0; line-height: 0; }
 #page #header #menu .link[disabled], #page #header #menu .link[aria-disabled="true"] { background-color: #aec9ff; border-color: #aec9ff; box-shadow: none; color: white; cursor: not-allowed; }
 
 @media only screen and (max-width: 767px) { #page #header { text-align: center; }
-  #page #header #avatar { margin-bottom: 40px; max-width: 60%; margin-left: auto; margin-right: auto; } }
+  #page #header #avatar { margin-bottom: 40px; max-width: 60%; margin-left: auto; margin-right: auto; }
+  #page #header #menu { justify-content: space-between; }
+  #page #header #menu .link:not(:last-child) { margin-right: 0; } }
 
 @media only screen and (max-width: 567px) { #page #header #author, #page #header #headline, #page #header #menu .link { width: 100%; }
   #page #header #menu .link:not(:last-child) { margin-right: 0; margin-bottom: 20px; } }
