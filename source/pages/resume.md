@@ -75,7 +75,7 @@ Never liked `NPM` and wasn't a big fan of writing `yarn` as the main command in 
 
 ## Client Work
 
-In my career, I have worked in small and large companies doing bunch of roles. From a junior developer, through webmaster, freelancer, frontend developer, web developer, senior frontend developer, and up to team leader.
+In my career, I have worked in small and large companies doing a bunch of roles. From a junior developer, through webmaster, freelancer, frontend developer, web developer, senior frontend developer, and up to team leader.
 
 While doing those roles doesn't if I were a freelancer or a full-timer I have treated everyone outside the team I was part of as a client. Meaning, I was trying to understand my client's needs and serve them with the best version of a solution to their needs.
 
