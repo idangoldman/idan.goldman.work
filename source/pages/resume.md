@@ -1,7 +1,7 @@
 ---
 title: Resume
 description:
-date: 2019-10-25 09:00:00 +0300
+date: 2019-11-27 13:00:00 +0300
 
 permalink: /
 layout: note
