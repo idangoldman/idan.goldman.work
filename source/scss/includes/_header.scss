@@ -61,11 +61,15 @@
   }
 
   #menu {
-    @extend %mt-5;
+    @extend %mt-4;
+    display: flex;
+    flex-wrap: wrap;
     width: 100%;
 
     .link {
-      &:not(:last-child) { @extend %mr-2; }
+      &:not(:last-child) { @extend %mr-3; }
+
+      @extend %mt-3;
       @include button;
     }
   }
@@ -80,6 +84,12 @@
       max-width: 60%;
       margin-left: auto;
       margin-right: auto;
+    }
+
+    #menu {
+      justify-content: space-between;
+
+      .link:not(:last-child) { margin-right: 0; }
     }
   }
 
