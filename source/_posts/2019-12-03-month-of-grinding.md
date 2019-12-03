@@ -1,6 +1,6 @@
 ---
 title: Months of Grinding
-date:  2019-12-02 16:00:00 +0300
+date:  2019-12-03 16:40:00 +0300
 tags:  newsletter
 ---
 
