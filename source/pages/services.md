@@ -13,8 +13,8 @@ layout: note
 - [Maintenance](#maintenance)
 - [Design to Code](#design-to-code)
 - [Custom Made](#custom-made)
-- [Frontend Staff Support](frontend-staff-support)
-- [Webmaster Staff Support](webmaster-staff-support)
+- [Frontend Staff Support](#frontend-staff-support)
+- [Webmaster Staff Support](#webmaster-staff-support)
 - [Code Review](#code-review)
 - [Hosting](#hosting)
 
