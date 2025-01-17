@@ -1,7 +1,10 @@
 ---
 title: Months of Grinding
-date:  2019-12-03 16:40:00 +0300
-tags:  newsletter
+date: 2019-12-03 15:40:00 +02:00
+categories:
+- source
+tags:
+- newsletter
 ---
 
 Mine went as same shit different day, putting the hours and grinding my skills in hope to get at this freelance game.

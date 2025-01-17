@@ -1,7 +1,10 @@
 ---
 title: Months of Adjusting
-date:  2019-11-04 09:00:00 +0300
-tags:  newsletter
+date: 2019-11-04 08:00:00 +02:00
+categories:
+- source
+tags:
+- newsletter
 ---
 
 Battling myself for the “right” decision on the StaticPage pivot or not question. Which to be honest still hunts me but I have decided to move forward with it and make StaticPage a real page builder for various theme supporting platforms... But this is not what this post about.

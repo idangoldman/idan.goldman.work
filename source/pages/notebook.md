@@ -1,7 +1,7 @@
 ---
 title: Notebook
-description:
-
-permalink: /notebook/
+permalink: "/notebook/"
+description: 
 layout: notebook
 ---
+

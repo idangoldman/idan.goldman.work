@@ -1,9 +1,8 @@
 ---
 title: Resume
-description:
-date: 2019-11-27 13:00:00 +0300
-
-permalink: /
+date: 2019-11-27 12:00:00 +02:00
+permalink: "/"
+description: 
 layout: note
 ---
 

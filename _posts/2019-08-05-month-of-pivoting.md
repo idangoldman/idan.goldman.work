@@ -1,7 +1,10 @@
 ---
 title: Month of Pivoting
-date:  2019-08-05 21:01:00 +0300
-tags:  newsletter
+date: 2019-08-05 21:01:00 +03:00
+categories:
+- source
+tags:
+- newsletter
 ---
 
 My month was split into two parts, before vacation and after.

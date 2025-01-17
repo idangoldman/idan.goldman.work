@@ -1,85 +1,65 @@
-# General
-name: IDAN.GOLDMAN.WORK
+---
 title: Idan Goldman
+timezone: Asia/Jerusalem
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+  values:
+    layout: default
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: note
+    header:
+      author: Greater Fool's Journey,
+      headline: Notebook filled with bootstrapping code words.
+      header_image_path: "/images/headers/notebook.jpg"
+      avatar_image_path: "/images/avatar/picture.png"
+- scope:
+    path: pages/notebook.md
+  values:
+    header:
+      author: Greater Fool's Journey,
+      headline: Notebook filled with bootstrapping code words.
+      header_image_path: "/images/headers/notebook.jpg"
+      avatar_image_path: "/images/avatar/picture.png"
+- scope:
+    path: pages/say_hello.md
+  values:
+    header:
+      header_image_path: "/images/headers/say_hello.jpg"
+name: IDAN.GOLDMAN.WORK
 description: Experienced Frontend Developer
 author: idan_goldman
 email: reply@goldman.work
-
-# Permalinks
-url: "https://idan.goldman.work"
-baseurl: ""
+url: https://idan.goldman.work
+baseurl: ''
 host: idan.goldman.local
 port: 1234
-
-# Build settings
-source: ./source
-destination: ./public
-exclude: [scss]
-keep_files: [css]
+source: "./source"
+destination: "./public"
+exclude:
+- scss
+keep_files:
+- css
 markdown: kramdown
-timezone: Asia/Jerusalem
-
-# Plugins
 plugins:
-  # - jekyll-inline-svg
-  - jekyll-feed
-  - jekyll-last-modified-at
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-tidy
-
-# HTML Compression
+- jekyll-feed
+- jekyll-last-modified-at
+- jekyll-seo-tag
+- jekyll-sitemap
+- jekyll-tidy
 jekyll_tidy:
   ignore_env: development
   compress_html: true
-
-# SASS
-# sass:
-#   style: compressed
-#   load_paths:
-#     - ../kit
-
-# SVG
-# svg:
-#   optimize: true
-#
-# social_icons_folder_path: /images/social-icons/
-
-# 3rd party services
 3rd_party:
-  formspree_url: "https://formspree.io/xbjrlala"
-  ga_id: "UA-150655117-1"
-
-# Collections
-collections:
-  posts:
-    permalink: /notebook/:title/
-
-# Front Matter Defaults
-defaults:
-  - scope:
-      path: ""
-    values:
-      layout: "default"
-  - scope:
-      type: "posts"
-    values:
-      layout: "note"
-      header:
-        author: "Greater Fool's Journey,"
-        headline: "Notebook filled with bootstrapping code words."
-        header_image_path: /images/headers/notebook.jpg
-        avatar_image_path: /images/avatar/picture.png
-  - scope:
-      path: "pages/notebook.md"
-    values:
-      header:
-        author: "Greater Fool's Journey,"
-        headline: "Notebook filled with bootstrapping code words."
-        header_image_path: /images/headers/notebook.jpg
-        avatar_image_path: /images/avatar/picture.png
-  - scope:
-      path: "pages/say_hello.md"
-    values:
-      header:
-        header_image_path: /images/headers/say_hello.jpg
+  formspree_url: https://formspree.io/xbjrlala
+  ga_id: UA-150655117-1

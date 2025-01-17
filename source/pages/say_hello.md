@@ -1,8 +1,7 @@
 ---
 title: Say Hello
-description:
-
-permalink: /say_hello/
+permalink: "/say_hello/"
+description: 
 layout: say_hello
 ---
 

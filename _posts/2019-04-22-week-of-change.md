@@ -1,7 +1,10 @@
 ---
 title: Week of Change
-date:  2019-04-22 16:22:00 +0300
-tags:  newsletter
+date: 2019-04-22 16:22:00 +03:00
+categories:
+- source
+tags:
+- newsletter
 ---
 
 My week went solid. Released a StaticPage templates feature and instead of continuing to build a new landing page. I took a step back and thought about my near future goals and working routine.

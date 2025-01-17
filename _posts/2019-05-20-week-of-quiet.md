@@ -1,7 +1,10 @@
 ---
 title: Week of Quiet
-date:  2019-05-20 16:00:00 +0300
-tags:  newsletter
+date: 2019-05-20 16:00:00 +03:00
+categories:
+- source
+tags:
+- newsletter
 ---
 
 Mine went good all things considered except the routine which went to hell. I'm partially back to work! Re-recorded StaticPage's walkthrough video. Published Fiverr gig "Create a Coming Soon Page in 1 Day". Got more traction on Twitter with the help of a pen pal, and got deeper into the rabbit hole of productivity apps.

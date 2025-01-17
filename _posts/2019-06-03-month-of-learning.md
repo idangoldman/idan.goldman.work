@@ -1,7 +1,10 @@
 ---
 title: Month of learning
-date:  2019-06-03 18:45:00 +0300
-tags:  newsletter
+date: 2019-06-03 18:45:00 +03:00
+categories:
+- source
+tags:
+- newsletter
 ---
 
 Mine went awesome! Learned about what people want in their page builder, keyword research, video editing, social media posting. Oh, and the [walkthrough video](https://www.youtube.com/watch?v=vEiAj0Zr5xc){:target="_blank"} is out!

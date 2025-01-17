@@ -1,9 +1,8 @@
 ---
 title: Services
-description:
-date: 2019-11-27 13:00:00 +0300
-
-permalink: /services/
+date: 2019-11-27 12:00:00 +02:00
+permalink: "/services/"
+description: 
 layout: note
 ---
 

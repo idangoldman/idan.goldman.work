@@ -1,7 +1,10 @@
 ---
 title: Week of Holidays
-date:  2019-04-29 16:58:00 +0300
-tags:  newsletter
+date: 2019-04-29 16:58:00 +03:00
+categories:
+- source
+tags:
+- newsletter
 ---
 
 My went great, spend some family and got some work done using the new routine tools for last week's update. Let's see some stats today!

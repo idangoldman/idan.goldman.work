@@ -1,7 +1,10 @@
 ---
 title: April Fool's Beginning
-date:  2019-04-01 16:40:00 +0300
-tags:  newsletter
+date: 2019-04-01 16:40:00 +03:00
+categories:
+- source
+tags:
+- newsletter
 ---
 
 I'm starting a journey as a Bootstrapper and will be launching a product on May 1st.
