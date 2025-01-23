@@ -9,57 +9,54 @@ collections:
     title: Uploads
     output: true
 defaults:
-- scope:
-    path: ''
-  values:
-    layout: default
-- scope:
-    path: ''
-    type: posts
-  values:
-    layout: note
-    header:
-      author: Greater Fool's Journey,
-      headline: Notebook filled with bootstrapping code words.
-      header_image_path: "/images/headers/notebook.jpg"
-      avatar_image_path: "/images/avatar/picture.png"
-- scope:
-    path: pages/notebook.md
-  values:
-    header:
-      author: Greater Fool's Journey,
-      headline: Notebook filled with bootstrapping code words.
-      header_image_path: "/images/headers/notebook.jpg"
-      avatar_image_path: "/images/avatar/picture.png"
-- scope:
-    path: pages/say_hello.md
-  values:
-    header:
-      header_image_path: "/images/headers/say_hello.jpg"
+  - scope:
+      path: ""
+    values:
+      layout: default
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: note
+      header:
+        author: Greater Fool's Journey,
+        headline: Notebook filled with bootstrapping code words.
+        header_image_path: "/images/headers/notebook.jpg"
+        avatar_image_path: "/images/avatar/picture.png"
+  - scope:
+      path: pages/notebook.md
+    values:
+      header:
+        author: Greater Fool's Journey,
+        headline: Notebook filled with bootstrapping code words.
+        header_image_path: "/images/headers/notebook.jpg"
+        avatar_image_path: "/images/avatar/picture.png"
+  - scope:
+      path: pages/say_hello.md
+    values:
+      header:
+        header_image_path: "/images/headers/say_hello.jpg"
 name: IDAN.GOLDMAN.WORK
 description: Experienced Frontend Developer
 author: idan_goldman
 email: reply@goldman.work
 url: https://idan.goldman.work
-baseurl: ''
+baseurl: ""
 host: idan.goldman.local
 port: 1234
 source: "./source"
 destination: "./public"
 exclude:
-- scss
+  - scss
 keep_files:
-- css
+  - css
 markdown: kramdown
 plugins:
-- jekyll-feed
-- jekyll-last-modified-at
-- jekyll-seo-tag
-- jekyll-sitemap
-- jekyll-tidy
+  - jekyll-feed
+  - jekyll-last-modified-at
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-tidy
 jekyll_tidy:
   ignore_env: development
   compress_html: true
-3rd_party:
-  formspree_url: https://formspree.io/xbjrlala
-  ga_id: UA-150655117-1

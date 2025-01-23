@@ -7,8 +7,4 @@
   {% feed_meta %}
 
   <link rel="stylesheet" href="{{ '/css/default.css' }}" />
-
-  {% if jekyll.environment == "production" and site.third_party.ga_id %}
-    {% include third_party/google_analytics.liquid id=site.third_party.ga_id %}
-  {% endif %}
 </head>
